@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wallet {
+    width: 360px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #6317f0;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.card {
+    background-color: #6317f0;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.balance {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.balance p {
+    margin: 0;
+}
+
+.balance h2 {
+    margin: 10px 0 0 0;
+    font-size: 24px;
+}
+
+.card-details {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.card-number {
+    font-size: 18px;
+    margin: 0;
+}
+
+.card-holder p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+}
+
+.expiry-date p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+}
+
+.visa-logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffb74d;
+}
+
+.transactions {
+    padding: 20px;
+}
+
+.transactions h2 {
+    margin: 0 0 20px 0;
+    font-size: 18px;
+}
+
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.transaction img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.transaction-details {
+    flex-grow: 1;
+    margin-left: 15px;
+}
+
+.transaction-details p {
+    margin: 0;
+}
+
+.amount {
+    font-size: 16px;
+}
+
+.amount.positive {
+    color: #4caf50;
+}
+
+.amount.negative {
+    color: #f44336;
+}
